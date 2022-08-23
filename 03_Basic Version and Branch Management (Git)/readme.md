@@ -21,6 +21,9 @@ Melakukan perintah git push untuk memasukan file ke GitHub.
 Melakukan perintah git stash.
 ![Test](screenshot/image_06.png)
 
+Melakukan perintah pull request.
+![Test](screenshot/image_09.png)
+
 Melakukan perintah git merge.
 ![Test](screenshot/image_07.png)
 

@@ -19,5 +19,10 @@ Melakukan perintah git push untuk memasukan file ke GitHub.
 
 ---
 ### [Task 03 🗒](#descriptive-)
-Menambahkan branch development
+Menambahkan branch Development
+
 ```git branch development```
+
+Menambahkan branch Feature A
+
+```git branch featureA```

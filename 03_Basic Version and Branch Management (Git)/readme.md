@@ -33,5 +33,9 @@ Menambahkan branch Feature A
 
 Menambahkan branch Feature B
 
+<<<<<<< Updated upstream
+```git branch featureB```
+>>>>>>> Stashed changes
+=======
 ```git branch featureB```
 >>>>>>> Stashed changes

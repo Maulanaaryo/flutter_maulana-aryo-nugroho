@@ -18,6 +18,9 @@ Saya membuat sebuah repository GitHub dengan nama flutter_maulana-aryo-nugroho. 
 Melakukan perintah git push untuk memasukan file ke GitHub.
 ![Test](screenshot/image_02.png)
 
+Melakukan perintah git stash.
+![Test](screenshot/image_06.png)
+
 ---
 ### [Task 03 🗒](#descriptive-)
 Menambahkan branch Development

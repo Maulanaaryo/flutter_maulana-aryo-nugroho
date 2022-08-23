@@ -21,6 +21,9 @@ Melakukan perintah git push untuk memasukan file ke GitHub.
 Melakukan perintah git stash.
 ![Test](screenshot/image_06.png)
 
+Melakukan perintah git merge.
+![Test](screenshot/image_07.png)
+
 ---
 ### [Task 03 🗒](#descriptive-)
 Menambahkan branch Development
@@ -37,3 +40,8 @@ Menambahkan branch Feature B
 
 ```git branch featureB```
 ![Test](screenshot/image_05.png)
+
+---
+### [Task 04 🗒](#descriptive-)
+Melakukan perintah merge no fast forward
+![Test](screenshot/image_08.png)

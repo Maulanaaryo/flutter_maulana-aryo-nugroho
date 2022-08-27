@@ -81,3 +81,4 @@ Mengerjakan soal pilihan ganda
 Mengerjakan soal latihan fundamental mobile developer 1
 ![Test](screenshot/image_04.png)
 https://docs.google.com/document/d/11offlFU6GCrWrpkwvTZzVtxOFzNpdMzfCxBLYwQEiGY/edit
+![Test](screenshot/image_05.png)

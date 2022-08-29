@@ -75,9 +75,9 @@ Mengerjakan soal pilihan ganda, pada materi section_05
 ![Test](screenshot/image_01.png)
 
 ### [Task 02 🗒](#descriptive-)
-Mengerjakan tugas praktikum no.1 dengan membuat luas lingkaran
+Mengerjakan tugas Praktikum - Introduction to Algorithm and Dart Programming no.1 dengan membuat luas lingkaran
 ![Test](screenshot/image_02.png)
 
 ### [Task 03 🗒](#descriptive-)
-Mengerjakan tugas praktikum no.2 dengan membuat 3 buah variabel berisi string
+Mengerjakan tugas Praktikum - Introduction to Algorithm and Dart Programming no.2 dengan membuat 3 buah variabel berisi string
 ![Test](screenshot/image_03.png)

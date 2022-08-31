@@ -33,3 +33,5 @@ Pada section ini belajar tentang Advance Function - Async-Await.
 
 ## 📒 Task
 ### [Task 01 🗒](#descriptive-)
+Pada Task_01 di materi Advance Function - Async-Await yaitu mengerjakan soal pilihan ganda, berikut bukti pengiriman pengerjaan
+![Image](/08_Advance%20Function%20-%20Async-Await/screenshot/image_01.png)

@@ -19,13 +19,13 @@ void hasil() {
   int nilai = 70;
 
   if(nilai > 70) {
-    print('return A');
+    print('A');
   } else if(nilai > 40) {
-    print('return B');
+    print('B');
   } else if(nilai > 0) {
-    print('return C');
+    print('C');
   } else {
-    print('return kosong');
+    print('kosong');
   }
 }
 

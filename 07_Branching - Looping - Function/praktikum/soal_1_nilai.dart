@@ -15,7 +15,7 @@
 //   print('Grade : $grade');
 // }
 
-void main() {
+void hasil() {
   int nilai = 70;
 
   if(nilai > 70) {
@@ -27,4 +27,8 @@ void main() {
   } else {
     print('return kosong');
   }
+}
+
+void main(List<String> args) {
+  hasil();
 }

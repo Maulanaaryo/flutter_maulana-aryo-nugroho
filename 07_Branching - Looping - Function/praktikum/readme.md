@@ -95,11 +95,11 @@ Pada Task_01 di materi Branching, Looping, Function yaitu mengerjakan soal pilih
 ![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_01.png)
 
 ### [Task 02 🗒](#descriptive-)
-Pada Task_02 dimateri ini yaitu mengerjakan soal praktikum - Advance Function, Async-Await no.1 yaitu dengan membuat solusi dari persoalan yang terdapat pada sebuah nilai yang telah diberikan
+Pada Task_02 dimateri ini yaitu mengerjakan soal praktikum - Branching, Looping, Function no.1 yaitu dengan membuat solusi dari persoalan yang terdapat pada sebuah nilai yang telah diberikan
 ![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_02.png)
 
 ### [Task 03 🗒](#descriptive-)
-Pada Task_03 dimateri ini yaitu mengerjakan soal praktikum - Advance Function, Async-Await no.2 yaitu menampilkan nilai faktorial dengan nilai yang sudah diberikan
+Pada Task_03 dimateri ini yaitu mengerjakan soal praktikum - Branching, Looping, Function no.2 yaitu menampilkan nilai faktorial dengan nilai yang sudah diberikan
 ![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_03.png)
 ![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_04.png)
 ![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_05.png)

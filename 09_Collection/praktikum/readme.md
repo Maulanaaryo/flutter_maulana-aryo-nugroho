@@ -36,3 +36,11 @@ Pada section ini belajar tentang Collection
 ### [Task 01 🗒](#descriptive-)
 Pada Task_01 di materi Collection yaitu mengerjakan soal pilihan ganda, berikut bukti pengiriman pengerjaan
 ![image](/09_Collection/screenshot/image_01.png)
+
+### [Task 02 🗒](#descriptive-)
+Pada Task_02 dimateri ini yaitu mengerjakan soal praktikum - Collection no.1 yaitu dengan membuat fungsi yang sudah ditentukan
+![image](/09_Collection/screenshot/image_02.png)
+
+### [Task 03 🗒](#descriptive-)
+Pada Task_03 dimateri ini yaitu mengerjakan soal praktikum - Collection no.2 yaitu membuat sebuah map dengan menggunakan list
+![image](/09_Collection/screenshot/image_03.png)

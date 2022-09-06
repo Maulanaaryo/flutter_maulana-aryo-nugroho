@@ -52,3 +52,7 @@ Pada file latihan 1, mengerjakan tugas yang diberikan yaitu membuat program 5 an
 ### [Task 05 🗒](#descriptive-)
 Pada file latihan 2, mengerjakan tugas yang diberikan yaitu membuat program array dua dimensi dengan matrix 5x4 dan hitung jumlah, rata-rata, serta mencari nilai terbesar dan terkecil
 ![image](/09_Collection/screenshot/image_05.png)
+
+### [Task 06 🗒](#descriptive-)
+Pada file latihan 3, mengerjakan tugas yang diberikan yaitu memanfaatkan parameter List<String> args untuk operasi aritmatika
+![image](/09_Collection/screenshot/image_06.png)

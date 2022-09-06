@@ -44,3 +44,7 @@ Pada Task_02 dimateri ini yaitu mengerjakan soal praktikum - Collection no.1 yai
 ### [Task 03 🗒](#descriptive-)
 Pada Task_03 dimateri ini yaitu mengerjakan soal praktikum - Collection no.2 yaitu membuat sebuah map dengan menggunakan list
 ![image](/09_Collection/screenshot/image_03.png)
+
+### [Task 04 🗒](#descriptive-)
+Pada file latihan 1, mengerjakan tugas yang diberikan yaitu membuat program 5 angka dan disimpan ke dalam array, serta hitung rata-ratanya.
+![image](/09_Collection/screenshot/image_04.png)

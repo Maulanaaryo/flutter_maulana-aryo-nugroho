@@ -48,3 +48,7 @@ Pada Task_03 dimateri ini yaitu mengerjakan soal praktikum - Collection no.2 yai
 ### [Task 04 🗒](#descriptive-)
 Pada file latihan 1, mengerjakan tugas yang diberikan yaitu membuat program 5 angka dan disimpan ke dalam array, serta hitung rata-ratanya.
 ![image](/09_Collection/screenshot/image_04.png)
+
+### [Task 05 🗒](#descriptive-)
+Pada file latihan 2, mengerjakan tugas yang diberikan yaitu membuat program array dua dimensi dengan matrix 5x4 dan hitung jumlah, rata-rata, serta mencari nilai terbesar dan terkecil
+![image](/09_Collection/screenshot/image_05.png)

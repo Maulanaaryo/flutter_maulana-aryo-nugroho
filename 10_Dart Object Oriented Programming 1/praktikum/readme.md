@@ -84,9 +84,5 @@ Pada Task_01 di materi Dart Object Oriented Programming 1 yaitu mengerjakan soal
 ![image](/10_Dart%20Object%20Oriented%20Programming%201/screenshot/image_01.png)
 
 ### [Task 02 🗒](#descriptive-)
-Pada Task_02 di materi di materi Dart Object Oriented Programming 1 yaitu mengerjakan soal praktikum no.1
+Pada Task_02 di materi di materi Dart Object Oriented Programming 1 yaitu mengerjakan soal praktikum no.1 dan no.2
 ![image](/10_Dart%20Object%20Oriented%20Programming%201/screenshot/image_02.png)
-
-### [Task 03 🗒](#descriptive-)
-Pada Task_03 di materi di materi Dart Object Oriented Programming 1 yaitu mengerjakan soal praktikum no.2
-![image](/10_Dart%20Object%20Oriented%20Programming%201/screenshot/image_03.png)

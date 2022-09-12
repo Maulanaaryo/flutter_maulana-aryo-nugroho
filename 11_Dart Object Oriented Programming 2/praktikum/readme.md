@@ -95,3 +95,7 @@ Pada Task_03 di materi di materi Dart Object Oriented Programming 2 yaitu menger
 ### [Task 04 🗒](#descriptive-)
 Pada Task_04 di materi di materi Dart Object Oriented Programming 2 yaitu mengerjakan soal tambahan
 ![image](/11_Dart%20Object%20Oriented%20Programming%202/screenshot/image_04.png)
+
+### [Task 05 🗒](#descriptive-)
+Pada Task_05 di materi di materi Dart Object Oriented Programming 2 yaitu mengerjakan soal tambahan
+![image](/11_Dart%20Object%20Oriented%20Programming%202/screenshot/image_05.png)

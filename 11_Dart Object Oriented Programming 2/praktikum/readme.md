@@ -83,3 +83,7 @@ Contoh: (Nama class baru) extends (class yang sudah ada) {}
 ### [Task 01 🗒](#descriptive-)
 Pada Task_01 di materi Dart Object Oriented Programming 2 yaitu mengerjakan soal pilihan ganda, berikut bukti pengiriman pengerjaan
 ![image](/11_Dart%20Object%20Oriented%20Programming%202/screenshot/image_01.png)
+
+### [Task 02 🗒](#descriptive-)
+Pada Task_02 di materi di materi Dart Object Oriented Programming 2 yaitu mengerjakan soal praktikum no.1 dan no.2
+![image](/11_Dart%20Object%20Oriented%20Programming%202/screenshot/image_02.png)

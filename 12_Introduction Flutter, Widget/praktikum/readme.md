@@ -90,3 +90,8 @@ Stateful
 ### [Task 01 🗒](#descriptive-)
 Pada Task_01 di materi Introduction Flutter Widget yaitu mengerjakan soal pilihan ganda, berikut bukti pengiriman pengerjaan
 ![image](/12_Introduction%20Flutter%2C%20Widget/screenshot/image_01.png)
+
+## 📒 Task
+### [Task 02 🗒](#descriptive-)
+Pada Task_02 mengerjakan tugas essay task 1&2, untuk task 2 source code saya simpan di file main.txt
+![image](/12_Introduction%20Flutter%2C%20Widget/screenshot/image_02.png)

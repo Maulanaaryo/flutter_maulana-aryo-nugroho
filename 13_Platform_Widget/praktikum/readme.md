@@ -49,3 +49,14 @@ Pada section ini belajar tentang Platform Widget
 ### [Task 01 🗒](#descriptive-)
 Pada Task_01 di materi Platform Widget yaitu mengerjakan soal pilihan ganda, berikut bukti pengiriman pengerjaan
 ![image](/13_Platform%20Widget/screenshot/image_01.png)
+
+## 📒 Task
+### [Task 02 🗒](#descriptive-)
+Pada Task_02 mengerjakan tugas essay task 1, berikut untuk buktinya
+![image](/13_Platform_Widget/screenshot/image_02.png)
+
+## 📒 Task
+### [Task 03 🗒](#descriptive-)
+Pada Task_03 mengerjakan tugas essay task 2, berikut untuk buktinya
+![image](/13_Platform_Widget/screenshot/image_03.png)
+

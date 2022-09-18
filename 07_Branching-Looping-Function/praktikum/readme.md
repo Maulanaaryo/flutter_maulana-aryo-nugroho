@@ -92,14 +92,14 @@ tipe_data nama_fungsi(tipe_data nama_parameter) {
 ## 📒 Task
 ### [Task 01 🗒](#descriptive-)
 Pada Task_01 di materi Branching, Looping, Function yaitu mengerjakan soal pilihan ganda, berikut bukti pengiriman pengerjaan
-![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_01.png)
+![Image](/07_Branching-Looping-Function/screenshot/image_01.png)
 
 ### [Task 02 🗒](#descriptive-)
 Pada Task_02 dimateri ini yaitu mengerjakan soal praktikum - Branching, Looping, Function no.1 yaitu dengan membuat solusi dari persoalan yang terdapat pada sebuah nilai yang telah diberikan
-![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_02.png)
+![Image](/07_Branching-Looping-Function/screenshot/image_02.png)
 
 ### [Task 03 🗒](#descriptive-)
 Pada Task_03 dimateri ini yaitu mengerjakan soal praktikum - Branching, Looping, Function no.2 yaitu menampilkan nilai faktorial dengan nilai yang sudah diberikan
-![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_03.png)
-![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_04.png)
-![Image](/07_Branching%20-%20Looping%20-%20Function/screenshot/image_05.png)
+![Image](/07_Branching-Looping-Function/screenshot/image_03.png)
+![Image](/07_Branching-Looping-Function/screenshot/image_04.png)
+![Image](/07_Branching-Looping-Function/screenshot/image_05.png)

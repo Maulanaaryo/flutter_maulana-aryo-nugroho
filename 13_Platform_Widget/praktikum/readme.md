@@ -48,7 +48,7 @@ Pada section ini belajar tentang Platform Widget
 ## 📒 Task
 ### [Task 01 🗒](#descriptive-)
 Pada Task_01 di materi Platform Widget yaitu mengerjakan soal pilihan ganda, berikut bukti pengiriman pengerjaan
-![image](/13_Platform%20Widget/screenshot/image_01.png)
+![image](/13_Platform_Widget/screenshot/image_01.png)
 
 ## 📒 Task
 ### [Task 02 🗒](#descriptive-)

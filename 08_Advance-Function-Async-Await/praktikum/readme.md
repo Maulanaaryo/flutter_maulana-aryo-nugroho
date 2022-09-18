@@ -34,12 +34,12 @@ Pada section ini belajar tentang Advance Function - Async-Await.
 ## 📒 Task
 ### [Task 01 🗒](#descriptive-)
 Pada Task_01 di materi Advance Function - Async-Await yaitu mengerjakan soal pilihan ganda, berikut bukti pengiriman pengerjaan
-![Image](/08_Advance%20Function%20-%20Async-Await/screenshot/image_01.png)
+![Image](/08_Advance-Function-Async-Await/screenshot/image_01.png)
 
 ### [Task 02 🗒](#descriptive-)
 Pada Task_02 dimateri ini yaitu mengerjakan soal praktikum - Advance Function, Async-Await no.1 yaitu dengan membuat fungsi yang sudah ditentukan
-![image](/08_Advance%20Function%20-%20Async-Await/screenshot/image_02.png)
+![image](/08_Advance-Function-Async-Await/screenshot/image_02.png)
 
 ### [Task 03 🗒](#descriptive-)
 Pada Task_03 dimateri ini yaitu mengerjakan soal praktikum - Advance Function, Async-Await no.2 yaitu membuat sebuah map dengan menggunakan list
-![image](/08_Advance%20Function%20-%20Async-Await/screenshot/image_03.png)
+![image](/08_Advance-Function-Async-Await/screenshot/image_03.png)

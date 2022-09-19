@@ -1,4 +1,4 @@
 class Hewan {
-  var berat;
+  int berat = 0;
   var nama;
 }

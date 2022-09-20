@@ -91,3 +91,12 @@ Pada task_01 ini mengerjakan tugas pilihan ganda yang terdapat di website ALTA, 
 
 ## 📒 Task
 ### [Task 02 🗒](#descriptive-)
+Pada task_02 ini mengerjakan tugas praktikum/essay, terdapat 2 soal, untuk soal pertama menggunakan package yang sudah ditentukan yaitu ```https://pub.dev/packages/badges``` dan membuat tampilan menggunakan package tersebut. Untuk soal kedua menggunakan package yang ditentukan yaitu ```https://pub.dev/packages/barcode_widget``` dan membuat tampilan menggunakan barcode dengan kriteria :
+1. Alterra Academy
+2. Flutter Asik
+3. Nama Lengkap
+
+![image](/14_Flutter_CLI_Package/screenshot/image_05.png)
+![image](/14_Flutter_CLI_Package/screenshot/image_02.png)
+![image](/14_Flutter_CLI_Package/screenshot/image_03.png)
+![image](/14_Flutter_CLI_Package/screenshot/image_04.png)

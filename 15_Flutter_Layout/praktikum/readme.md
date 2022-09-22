@@ -105,3 +105,8 @@ GridView.count(
 ### [Task 01 🗒](#descriptive-)
 Pada task_01 ini mengerjakan tugas pilihan ganda yang terdapat di website ALTA, terdapat 5 soal mengenai materi yang sudah dijelaskan sebelumnya, berikut untuk bukti pengerjaannya
 ![image](/15_Flutter_Layout/screenshot/image_01.png)
+
+### [Task 02 🗒](#descriptive-)
+Pada task_02 diberikan 2 soal yaitu soal pertama ditugaskan membuat tampilan menggunakan ListView dan soal kedua membuat tampilan menggunakan GridView. pada soal pertama ini menggunakan ```ListView.Builder``` dan soal kedua ini menggunakan ```GridView.Builder```, ditambahkan juga bottom bar untuk memilih tampilan yang diinginkan. Berikut ini ada contoh output dalam tampilan yang sudah dibuat, serta untuk code nya bisa diliat di folder praktikum.
+![image](/15_Flutter_Layout/screenshot/image_02.png)
+![image](/15_Flutter_Layout/screenshot/image_03.png)

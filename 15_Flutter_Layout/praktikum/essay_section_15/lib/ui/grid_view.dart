@@ -40,18 +40,21 @@ class GridViewScreen extends StatelessWidget {
           ),
         ),
         body: GridView.builder(
-          padding: const EdgeInsets.all(15),
+          padding: const EdgeInsets.all(10),
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 4,
-            mainAxisSpacing: 25,
-            crossAxisSpacing: 25,
+            mainAxisSpacing: 23,
+            crossAxisSpacing: 20,
           ),
           itemCount: dataIcons.length,
-          itemBuilder: (context, index) => Container(
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(50),
-                color: Colors.lightBlueAccent),
-            child: Icon(dataIcons[index]),
+          itemBuilder: (context, index) => Padding(
+            padding: const EdgeInsets.all(10),
+            child: Container(
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(50),
+                  color: Colors.lightBlueAccent),
+              child: Icon(dataIcons[index]),
+            ),
           ),
         ));
   }

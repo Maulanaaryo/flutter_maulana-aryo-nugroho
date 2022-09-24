@@ -14,7 +14,7 @@
 
 ## 📒 Jawaban Task
 ### [Task 01 🗒](#descriptive-)
-Pada task_01 mendownload gambar dan dimasukan kedalam folder assets dan di daftarkan di folder pubscpec.yaml, selanjutnya untuk source code GridView sebagai berikut :
+Pada task_01 mencari gambar dari internet dan urL dimasukan kedalam folder model, setelah itu dimasukin kedalam code yang membutuhkan image, selanjutnya untuk source code GridView sebagai berikut :
 ```dart
 GridView.builder(
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -33,8 +33,7 @@ GridView.builder(
                     );
                   },
                   child: GridTile(
-                    child: Image.asset(
-                      _image.imageAsset,
+                    child: Image.network(_image.imageUrls,
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -48,11 +47,11 @@ GridView.builder(
 ### [Task 02 🗒](#descriptive-)
 Pada task_02 menampilkan gambar penuh pada gambar yang dipilih, untuk source code nya sebagai berikut :
 ```dart
-Scaffold(
+return Scaffold(
       body: Stack(
         children: [
-          Image.asset(
-            _desain.imageAsset,
+          Image.network(
+            _desain.imageUrls,
             height: double.infinity,
             fit: BoxFit.cover,
           ),

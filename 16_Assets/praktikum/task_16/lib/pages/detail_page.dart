@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_16/model/image_asset.dart';
+import 'package:task_16/model/image.dart';
 
 class DetailPage extends StatelessWidget {
   final Desain _desain;
@@ -11,8 +11,8 @@ class DetailPage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          Image.asset(
-            _desain.imageAsset,
+          Image.network(
+            _desain.imageUrls,
             height: double.infinity,
             fit: BoxFit.cover,
           ),

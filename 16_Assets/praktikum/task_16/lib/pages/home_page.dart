@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_16/model/image_asset.dart';
+import 'package:task_16/model/image.dart';
 import 'package:task_16/pages/detail_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -16,6 +16,15 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Assets Flutter'),
         centerTitle: true,
+        flexibleSpace: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Color(0xff0096ff), Color(0xff6610f2)],
+              begin: FractionalOffset.topLeft,
+              end: FractionalOffset.bottomRight,
+            ),
+          ),
+        ),
       ),
       body: Stack(
         children: [
@@ -43,8 +52,7 @@ class _HomePageState extends State<HomePage> {
                     );
                   },
                   child: GridTile(
-                    child: Image.asset(
-                      _image.imageAsset,
+                    child: Image.network(_image.imageUrls,
                       fit: BoxFit.cover,
                     ),
                   ),

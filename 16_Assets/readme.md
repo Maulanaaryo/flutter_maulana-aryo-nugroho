@@ -17,12 +17,12 @@ Pada section ini belajar tentang Assets
 - Flutter menggunakan pubspec.yaml
 - Pubspec.yaml terletak pada root project, untuk mengidentifikasi assets yang dibutuhkan aplikasi
 - Gunakan karakter "/" untuk memasukan semua assets dibawah satu directory name
-~~~
+~~~dart
 assets:
  - assets/my_icon.png
  - assets/background.jpg
 ~~~
-~~~
+~~~dart
 assets:
  - assets/
 ~~~ 

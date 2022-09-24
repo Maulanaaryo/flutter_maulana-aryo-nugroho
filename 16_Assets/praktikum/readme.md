@@ -4,76 +4,73 @@
 - Nomor Urut : 1_016FLB_36
 - Nama : Maulana Aryo Nugroho
 
-# 📔Summary
-Pada section ini belajar tentang Assets
-
-### 📘 Assets
-~~~
-🖊️ File yang di bundled dan di deployed bersamaan dengan aplikasi
-🖊️ Tipe-tipe assets, seperti: static data (JSON files), icons, images, dan font file (ttf)
-~~~
-
-### 📖 Menentukan Assets
-- Flutter menggunakan pubspec.yaml
-- Pubspec.yaml terletak pada root project, untuk mengidentifikasi assets yang dibutuhkan aplikasi
-- Gunakan karakter "/" untuk memasukan semua assets dibawah satu directory name
-~~~
-assets:
- - assets/my_icon.png
- - assets/background.jpg
-~~~
-~~~
-assets:
- - assets/
-~~~ 
-
-### 📙 Image
-~~~ 
-🖊️ image atau gambar akan membuat tampilan aplikasi menjadi lebih menarik
-🖊️ Flutter mendukung format gambar seperti JPEG, WebP, GIF, Animated Web/GIP, PNG, BMP, dan WBMP
-🖊️ Menampilkan gambar dari project asset dan internet
-~~~
-
-### 📖 Loading Images
-- Gunakan widget Image
-- Membutuhkan properti image dengan nilai class AssetImage()
-- Menggunakan method Image.asset, mendapatkan image yang sudah ditambahkan dalam project
-- Menggunakan method Image.network, mendapatkan data image melalui internet dengan menggunakan string url nya
-
-### 📗 Font
-~~~
-🖊️ Penggunaan font dengan style tertentu akan menjadi keunikan pada aplikasi
-🖊️ Penentuan font yang mau dipakai biasa nya oleh UI designer
-🖊️ Penerapan font menggunakan custom font atau dari package
-~~~
-
-### 📖 Custom Font
-Cara menggunakan custom font:
-
-1. Cari dan download font
-2. Import file .ttf
-3. Daftarkan font di pubspec.yaml
-4. Mengatur font sebagai default
-5. Gunakan font di spesifik widget
-
-### 📖 Font dari Package
-Cara menggunakan font dari package:
-
-1. Tambahkan package google_fonts di dependencies
-2. Import package di file dart
-3. Gunakan font dengan memanggil GoogleFonts.namaFont()
-
-### 📘 Aplikasi Task Management (Continue)
-Menambahkan Image
-- Menambahkan image pada empty_task_screen.dart
-- Membuat profile picture di profile_sheet.dart, menggunakan widget CircleAvatar
-- Menambahkan font pada setiap text
-- (profile_sheet.dart) menambahkan konten lain
-- (empty_task_screen,dart) menambahkan text di bawah image empty screen
-
 ---
-## 📒 Task
+## 📑 Soal Task
+1. Carilah minimum 3 gambar dari internet, lalu tampilkan menggunakan GridView!
+2. Tambah fungsionalitas berikut :
+- ketika sebuah gambar ditekan, akan terbuka halaman baru
+- halaman tersebut menampilkan gambar yang ditekan
+- gambar ditampilkan memenuhi halaman
+
+## 📒 Jawaban Task
 ### [Task 01 🗒](#descriptive-)
+Pada task_01 mendownload gambar dan dimasukan kedalam folder assets dan di daftarkan di folder pubscpec.yaml, selanjutnya untuk source code GridView sebagai berikut :
+```dart
+GridView.builder(
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 3,
+                crossAxisSpacing: 10,
+              ),
+              itemBuilder: (context, index) {
+                final _image = imageList[index];
+                return InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => DetailPage(_image),
+                      ),
+                    );
+                  },
+                  child: GridTile(
+                    child: Image.asset(
+                      _image.imageAsset,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                );
+              },
+              itemCount: imageList.length,
+            ),
+```
+![image](/16_Assets/screenshot/image_02.png)
 
 ### [Task 02 🗒](#descriptive-)
-
+Pada task_02 menampilkan gambar penuh pada gambar yang dipilih, untuk source code nya sebagai berikut :
+```dart
+Scaffold(
+      body: Stack(
+        children: [
+          Image.asset(
+            _desain.imageAsset,
+            height: double.infinity,
+            fit: BoxFit.cover,
+          ),
+          IconButton(
+            padding: const EdgeInsets.only(top: 30, left: 20),
+            icon: const Icon(
+              Icons.arrow_circle_left_outlined,
+              color: Colors.white,
+              size: 50,
+            ),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          )
+        ],
+      ),
+    );
+```
+![image](/16_Assets/screenshot/image_03.png)    
+![image](/16_Assets/screenshot/image_04.png)    
+![image](/16_Assets/screenshot/image_05.png)    

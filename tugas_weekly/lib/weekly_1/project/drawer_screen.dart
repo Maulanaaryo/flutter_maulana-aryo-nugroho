@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas_weekly/weekly_2/project/about_us.dart';
 
 class DrawerScreen extends StatefulWidget {
   const DrawerScreen({super.key});
@@ -18,7 +19,8 @@ class _DrawerScreenState extends State<DrawerScreen> {
             accountName: Text(''),
             accountEmail: Text(''),
             currentAccountPicture: CircleAvatar(
-              backgroundImage: NetworkImage('https://images.unsplash.com/photo-1663711935287-4a7323fea555?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80'),
+              backgroundImage: NetworkImage(
+                  'https://images.unsplash.com/photo-1663711935287-4a7323fea555?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80'),
             ),
             decoration: BoxDecoration(
               image: DecorationImage(
@@ -44,7 +46,16 @@ class _DrawerScreenState extends State<DrawerScreen> {
                 child: ElevatedButton(
                     style:
                         ElevatedButton.styleFrom(backgroundColor: Colors.grey),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return const AboutUsScreen();
+                          },
+                        ),
+                      );
+                    },
                     child: const Text('About us')),
               ),
               Container(

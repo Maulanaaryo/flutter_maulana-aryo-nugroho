@@ -1,0 +1,6 @@
+[submodule "13_Platform_Widget/praktikum/Submodules/flutter_maulana-aryo-nugroho"]
+	path = 13_Platform_Widget/praktikum/Submodules/flutter_maulana-aryo-nugroho
+	url = https://github.com/Maulanaaryo/flutter_maulana-aryo-nugroho.git
+[submodule "13_Platform_Widget/Submodules/praktikum/task_1_dan_2"]
+	path = 13_Platform_Widget/Submodules/praktikum/task_1_dan_2
+	url = https://github.com/Maulanaaryo/flutter_maulana-aryo-nugroho.git

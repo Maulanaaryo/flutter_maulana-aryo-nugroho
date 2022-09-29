@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
-import 'package:open_file/open_file.dart';
 import 'package:intl/intl.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -13,10 +12,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 Color _currentColor = Colors.blue;
-
-void _openFile(PlatformFile file) {
-  OpenFile.open(file.path);
-}
 
 TextEditingController inputDate = TextEditingController();
 TextEditingController inputColor = TextEditingController();

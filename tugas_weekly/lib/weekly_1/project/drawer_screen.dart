@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tugas_weekly/weekly_2/project/about_us.dart';
+import 'package:tugas_weekly/weekly_3/project/contact_us.dart';
 
 class DrawerScreen extends StatefulWidget {
   const DrawerScreen({super.key});
@@ -36,7 +37,16 @@ class _DrawerScreenState extends State<DrawerScreen> {
                 padding: const EdgeInsets.all(8),
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.grey),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return const ContactUsScreen();
+                        },
+                      ),
+                    );
+                  },
                   child: const Text('Contact us'),
                 ),
               ),

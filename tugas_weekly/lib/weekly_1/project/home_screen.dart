@@ -1,6 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:tugas_weekly/weekly_1/project/drawer_screen.dart';
+import 'package:tugas_weekly/weekly_3/project/contact.dart' as contact_store;
+import 'package:tugas_weekly/weekly_3/project/item_contact.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -14,9 +17,19 @@ class _HomeScreenState extends State<HomeScreen> {
   TextEditingController inputEmail = TextEditingController();
   TextEditingController inputHelp = TextEditingController();
   GlobalKey<FormState> formKey = GlobalKey<FormState>();
+  String name = '';
+  String email = '';
+
+  @override
+  void dispose() {
+    inputName.dispose();
+    inputEmail.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
+    final contactProvider = Provider.of<contact_store.Contact>(context);
     return Scaffold(
       appBar: AppBar(
         title: const Text('AskMin'),
@@ -116,6 +129,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     TextFormField(
                       controller: inputName,
                       keyboardType: TextInputType.name,
+                      textInputAction: TextInputAction.next,
                       decoration: const InputDecoration(
                         border: OutlineInputBorder(
                             borderRadius:
@@ -131,6 +145,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         labelStyle:
                             TextStyle(color: Colors.black87, fontSize: 17),
                       ),
+                      onChanged: (String value) {
+                        name = value;
+                      },
                       validator: (value) {
                         if (value!.isEmpty) {
                           return 'Masukan Nama Anda!';
@@ -144,6 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     TextFormField(
                       controller: inputEmail,
+                      textInputAction: TextInputAction.next,
                       keyboardType: TextInputType.emailAddress,
                       decoration: const InputDecoration(
                         border: OutlineInputBorder(
@@ -160,6 +178,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         labelStyle:
                             TextStyle(color: Colors.black87, fontSize: 17),
                       ),
+                      onChanged: (String value) {
+                        email = value;
+                      },
                       validator: (value) {
                         if (value!.isEmpty) {
                           return 'Masukan Email Anda!';
@@ -196,68 +217,68 @@ class _HomeScreenState extends State<HomeScreen> {
                       height: 10,
                     ),
                     ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.lightBlue),
-                        onPressed: () {
-                          if (formKey.currentState!.validate()) {
-                            showDialog(
-                              context: context,
-                              builder: (context) {
-                                return AlertDialog(
-                                  content: SizedBox(
-                                    width: 400,
-                                    height: 400,
-                                    child: SingleChildScrollView(
-                                      scrollDirection: Axis.vertical,
-                                      child: Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          const SizedBox(
-                                            height: 8,
-                                          ),
-                                          Text(
-                                            'Nama : ${inputName.text}\n',
-                                            style:
-                                                const TextStyle(fontSize: 20),
-                                          ),
-                                          const SizedBox(
-                                            height: 8,
-                                          ),
-                                          Text(
-                                            'Email : ${inputEmail.text}\n',
-                                            style:
-                                                const TextStyle(fontSize: 20),
-                                          ),
-                                          const SizedBox(
-                                            height: 8,
-                                          ),
-                                          Text(
-                                            'What can we help you with?\n ${inputHelp.text}',
-                                            style:
-                                                const TextStyle(fontSize: 20),
-                                          )
-                                        ],
-                                      ),
-                                    ),
-                                  ),
-                                );
-                              },
-                            );
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                backgroundColor: Color(0xff0096ff),
-                                content: Text(
-                                  'Berhasil Memasukan Data',
-                                  style: TextStyle(
-                                    fontSize: 30,
-                                  ),
-                                ),
-                              ),
-                            );
-                          }
-                        },
-                        child: const Text('Masukan Data'))
+                      style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.lightBlue),
+                      onPressed: () {
+                        if (!formKey.currentState!.validate()) return;
+                        formKey.currentState!.save();
+                        contactProvider.addContact(GetContact(name: inputName.text, email: inputEmail.text));
+                        // if (formKey.currentState!.validate()) {
+                          // showDialog(
+                          //   context: context,
+                          //   builder: (context) {
+                          //     return AlertDialog(
+                          //       content: SizedBox(
+                          //         width: 400,
+                          //         height: 400,
+                          //         child: SingleChildScrollView(
+                          //           scrollDirection: Axis.vertical,
+                          //           child: Column(
+                          //             crossAxisAlignment:
+                          //                 CrossAxisAlignment.start,
+                          //             children: [
+                          //               const SizedBox(
+                          //                 height: 8,
+                          //               ),
+                          //               Text(
+                          //                 'Nama : ${inputName.text}\n',
+                          //                 style: const TextStyle(fontSize: 20),
+                          //               ),
+                          //               const SizedBox(
+                          //                 height: 8,
+                          //               ),
+                          //               Text(
+                          //                 'Email : ${inputEmail.text}\n',
+                          //                 style: const TextStyle(fontSize: 20),
+                          //               ),
+                          //               const SizedBox(
+                          //                 height: 8,
+                          //               ),
+                          //               Text(
+                          //                 'What can we help you with?\n ${inputHelp.text}',
+                          //                 style: const TextStyle(fontSize: 20),
+                          //               )
+                          //             ],
+                          //           ),
+                          //         ),
+                          //       ),
+                          //     );
+                          //   },
+                          // );
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text(
+                              'Berhasil Memasukan Data',
+                            ),
+                          ),
+                        );
+                        // }
+                      },
+                      child: const Text(
+                        'Submit',
+                        style: TextStyle(fontSize: 25),
+                      ),
+                    ),
                   ],
                 ),
               ),

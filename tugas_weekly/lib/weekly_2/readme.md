@@ -34,7 +34,6 @@ var itemList = [
   Item(name: 'Microphone', price: 'Rp.150.000'),
 ];
 ```
-
 ### SourceCode berikut ini yaitu menjelaskan barang yang ditampilkan menggunakan Card, serta terdapat title bertuliskan 'about us'
 ```dart
 Scaffold(
@@ -78,3 +77,4 @@ Scaffold(
       ),
     );
 ```
+![image](/lib/weekly_2/screenshot/image_03.jpeg)

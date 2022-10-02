@@ -67,6 +67,7 @@ Scaffold(
               ),
             ),
 ```
+![image](/lib/weekly_1/screenshot/image_03.jpeg)
 ### DRAWER
 ```dart
 Drawer(
@@ -131,7 +132,7 @@ Drawer(
       ),
     );
 ```
-
+![image](/lib/weekly_1/screenshot/hasil_image_06.png)
 ### Berikut ini source code pada pembuatan 3 form (Username, Email, dan Message). Pada form dibuat menggunakan textformfield, untuk nama,email dan message sudah sesuai dengan kriteria yang diberikan.
 ```dart
 Container(
@@ -220,7 +221,7 @@ Container(
                       ),
                     ),
 ```
-
+![image](/lib/weekly_1/screenshot/image_02.jpeg)
 ### Pada source code berikut yaitu button submit, jika username, email, dan message diisi akan muncul tampilan pada kolom yang diisi
 
 ```dart
@@ -288,3 +289,4 @@ ElevatedButton(
                         },
                         child: const Text('Masukan Data'))
 ```
+![image](/lib/weekly_1/screenshot/image_01.jpeg)

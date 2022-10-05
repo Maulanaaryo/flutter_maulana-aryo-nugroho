@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:task_21/ui/add_contact_page.dart';
+import 'package:task_21/provider/contacts_provider.dart';
+import 'package:task_21/page/add_contact_page.dart';
 import 'package:task_21/widgets/contact_page.dart';
-import 'package:task_21/model/contacts_list.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

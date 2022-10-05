@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_21/model/contacts_list.dart';
+import 'package:task_21/provider/contacts_provider.dart';
 
 class ContactPage extends StatelessWidget {
   const ContactPage({super.key, required this.contact});

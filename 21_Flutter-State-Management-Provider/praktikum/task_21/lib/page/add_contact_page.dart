@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:task_21/model/contact.dart';
-import 'package:task_21/model/contacts_list.dart';
+import 'package:task_21/provider/contacts_provider.dart';
 import 'package:uuid/uuid.dart';
 
 class AddContactPage extends StatefulWidget {

@@ -13,8 +13,8 @@ class AddContactPage extends StatefulWidget {
 
 class _AddContactPageState extends State<AddContactPage> {
   final formKey = GlobalKey<FormState>();
-  final inputName = TextEditingController();
-  final inputPhone = TextEditingController();
+  TextEditingController inputName = TextEditingController();
+  TextEditingController inputPhone = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -80,7 +80,7 @@ class _AddContactPageState extends State<AddContactPage> {
                       name: inputName.text,
                       phone: inputPhone.text,
                     );
-                    contactProvider.addContact(contactItem);
+                    contactProvider.tambahContact(contactItem);
                     Navigator.pop(context);
                   },
                   child: const Text('CREATE CONTACT'))

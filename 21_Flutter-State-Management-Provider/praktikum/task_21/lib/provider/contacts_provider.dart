@@ -5,12 +5,12 @@ class Contact with ChangeNotifier {
   final List<ContactModel> _contacts = [];
   List<ContactModel> get contacts => _contacts;
 
-  void addContact(ContactModel contact) {
+  void tambahContact(ContactModel contact) {
     _contacts.add(contact);
     notifyListeners();
   }
 
-    void deleteContact(int index) {
+  void deleteContact(int index) {
     _contacts.removeAt(index);
     notifyListeners();
   }

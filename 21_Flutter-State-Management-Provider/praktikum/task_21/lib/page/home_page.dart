@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:task_21/provider/contacts_provider.dart';
 import 'package:task_21/page/add_contact_page.dart';
-import 'package:task_21/widgets/contact_page.dart';
+import 'package:task_21/page/contact_page.dart';
 
 
 class HomePage extends StatefulWidget {

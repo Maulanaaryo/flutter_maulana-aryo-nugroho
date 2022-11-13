@@ -53,5 +53,6 @@ class HomeViewModel with ChangeNotifier {
   }
 }
 ```
+![image](/26_MVVM-Architecture/screenshot/image_04.png)
 ![image](/26_MVVM-Architecture/screenshot/image_02.png)
 ![image](/26_MVVM-Architecture/screenshot/image_03.png)

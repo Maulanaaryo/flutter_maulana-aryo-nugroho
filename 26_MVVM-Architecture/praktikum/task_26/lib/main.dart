@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:task_26/pages/home/home_page.dart';
-import 'package:task_26/pages/home/home_view_model.dart';
+import 'package:task_26/pages/home_page.dart';
+import 'package:task_26/models/home_view_model.dart';
 
 void main() {
   runApp(const MyApp());

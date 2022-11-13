@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../home/home_view_model.dart';
+import '../models/home_view_model.dart';
 
 class UserWidget extends StatefulWidget {
   const UserWidget({super.key});

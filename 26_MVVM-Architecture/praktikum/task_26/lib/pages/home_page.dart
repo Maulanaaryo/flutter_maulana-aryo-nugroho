@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:task_26/pages/home/home_view_model.dart';
-import 'package:task_26/pages/widgets/user_widget.dart';
-import '../../models/user_model.dart';
+import 'package:task_26/models/home_view_model.dart';
+import 'package:task_26/widgets/user_widget.dart';
+import '../models/user_model.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
